@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+   >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/IdedtxNameshipperAccount"
+            android:hint="@string/edtxAccountNameShipper"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@color/colorPrimaryDark"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimaryDark"
+            app:met_singleLineEllipsis="true"
+
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/IdPhoneAccountShipper"
+            android:hint="@string/edtxAccountPhoneShipper"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@color/colorPrimaryDark"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimaryDark"
+            app:met_singleLineEllipsis="true"
+
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/IdPasswordAccountShipper"
+            android:hint="@string/edtxPasswordAccountShipper"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@color/colorPrimaryDark"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="9"
+            app:met_primaryColor="@color/colorPrimaryDark"
+            app:met_singleLineEllipsis="true"
+
+            />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

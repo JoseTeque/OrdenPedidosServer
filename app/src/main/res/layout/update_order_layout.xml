@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    >
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:background="@android:color/white"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/txtStatusSpinner"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/IdStatusSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtShipperSpinner"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/IdShipperSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+  </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

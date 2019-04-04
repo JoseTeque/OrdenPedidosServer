@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/IdOrderInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardElevation="4dp"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/Id_product_name"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:text="@string/product_name"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <TextView
+                    android:id="@+id/Id_product_quantity"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="true"
+                    android:textStyle="italic"
+                    android:text="@string/product_quantity"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <TextView
+                    android:id="@+id/Id_price_product"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="true"
+                    android:textStyle="italic"
+                    android:text="@string/product_price"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <TextView
+                    android:id="@+id/Id_product_discount"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textAllCaps="true"
+                    android:textStyle="italic"
+                    android:text="@string/product_discount"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
